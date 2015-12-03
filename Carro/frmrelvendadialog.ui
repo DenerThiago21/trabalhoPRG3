@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrmRelVendaDialog</class>
+ <widget class="QDialog" name="FrmRelVendaDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Relatório de Vendas</string>
+  </property>
+  <widget class="QPlainTextEdit" name="edRelVenda">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>651</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btCancelar">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>400</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema Cars</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionCadCliente"/>
+    <addaction name="actionCadCarro"/>
+   </widget>
+   <widget class="QMenu" name="menuVendas">
+    <property name="title">
+     <string>Vendas</string>
+    </property>
+    <addaction name="actionVenEfetuar_Vendas"/>
+   </widget>
+   <widget class="QMenu" name="menuRelat_rios">
+    <property name="title">
+     <string>Relatórios</string>
+    </property>
+    <addaction name="actionRelVendas"/>
+   </widget>
+   <widget class="QMenu" name="menuPesquisa">
+    <property name="title">
+     <string>Pesquisa</string>
+    </property>
+    <addaction name="actionPesqCliente"/>
+    <addaction name="actionPesqCarro"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuVendas"/>
+   <addaction name="menuRelat_rios"/>
+   <addaction name="menuPesquisa"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCadCliente">
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="actionCadCarro">
+   <property name="text">
+    <string>Carro</string>
+   </property>
+  </action>
+  <action name="actionVenEfetuar_Vendas">
+   <property name="text">
+    <string>Efetuar Vendas</string>
+   </property>
+  </action>
+  <action name="actionRelVendas">
+   <property name="text">
+    <string>Vendas</string>
+   </property>
+  </action>
+  <action name="actionPesqCliente">
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="actionPesqCarro">
+   <property name="text">
+    <string>Carro</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
